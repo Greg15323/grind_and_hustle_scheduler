@@ -57,7 +57,7 @@ var save_button5 = document.querySelector('#saveNote5');
 
 input_textarea5.value = localStorage.getItem('content5');
 
-saveNote2.addEventListener('click', updateOutput5);
+saveNote5.addEventListener('click', updateOutput5);
 
 function updateOutput5() {
     localStorage.setItem('content5', input_textarea5.value);
