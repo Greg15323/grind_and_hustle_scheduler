@@ -36,6 +36,11 @@ body {
     width: 10vw;
 
   }
+
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
   
   .row {
     white-space: pre-wrap;
@@ -75,6 +80,24 @@ body {
   
   .saveBtn:Hover {
     font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+
+  .clearBtn {
+    float: center;
+    border-radius: 10px;
+    background-color: rgb(76, 170, 207);
+    color: white;
+    opacity: 1;
+    font-size: 25px;
+    padding: 5px;
+    margin: auto;
+    display: block;
+  }
+  
+  .clearBtn:Hover {
+    font-size: 20px;
+    opacity: 0.6;
     transition: all .3s ease-in-out;
   }
   

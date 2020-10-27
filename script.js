@@ -198,3 +198,8 @@ else if (now >= 17 && now < 18) {
 else if (now < 17) {
     $("#note9").addClass("future");
 }
+
+$("#clear").click(function() {
+    localStorage.clear();
+    location.reload()
+});
