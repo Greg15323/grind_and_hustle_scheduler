@@ -32,7 +32,6 @@ body {
     text-align: center;
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
-    padding-top: 15px;
     font-size: 20px;
     width: 10vw;
 
@@ -40,6 +39,7 @@ body {
   
   .row {
     white-space: pre-wrap;
+    justify-content: center;
     height: 80px;
     border-top: 1px solid white;;
   }
